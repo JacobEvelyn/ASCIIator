@@ -1,4 +1,4 @@
-Jacob Evelyn
+Jacob Evelyn<br />
 Nov. 16, 2012
 
 ASCIIator is a website for converting images to ASCII art.
