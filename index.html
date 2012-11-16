@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>ASCIIator | Jacob Evelyn</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<script type="text/javascript" src="./main.js"></script>
+	</head>
+	<body>
+		<div class="title">ASCIIator</div>
+		<div id="UploadContainer" class="uploadContainer bordered">
+			<div class="fakeUploader">UPLOAD IMAGE</div>
+			<input id="ImageUploader" class="realUploader" type="file" />
+		</div>
+		<img id="InputImage" class="originalImage bordered hidden" />
+		<canvas id="OutputCanvas" class="output bordered hidden"></canvas>
+		<div id="Controls" class="bordered controls hidden">
+			<input id="ColorModeButton" class="button bordered" type="button" value="NOW BLACK 'N' WHITE!" /><br />
+			<input id="TextInput" class="bordered textInput" type="text" placeholder="YOURTEXTHERE">
+			<div class="bordered controlItem">
+				<label>Vertical Spacing<br/><input id="XSpacingRange" class="bordered range" type="range" min="10" max="30" step="1" /></label>
+			</div>
+			<div class="bordered controlItem">
+				<label>Horizontal Spacing<br/><input id="YSpacingRange" class="bordered range" type="range" min="10" max="30" step="1" /></label>
+			</div>
+			<div class="bordered controlItem">
+				<label>Font Size<br/><input id="FontSizeRange" class="bordered range" type="range" min="10" max="30" step="1" /></label>
+			</div>
+			<div class="bordered controlItem">
+				<label>Background Color<input id="BGColorChooser" class="colorChooser" type="color" value="#ffffff" /></label>
+			</div>
+			<a id="DownloadLink" class='link' download="ascii">
+				<div class="bordered controlItem">DOWNLOAD AS PNG</div>
+			</a>
+		</div>
+	</body>
+</html>
