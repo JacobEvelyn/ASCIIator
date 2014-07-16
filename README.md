@@ -1,6 +1,9 @@
-Jacob Evelyn<br />
-Nov. 16, 2012
+## www.asciiator.com
 
-ASCIIator is a website for converting images to ASCII art.
+Jacob Evelyn
+2014
 
-ASCIIator is run entirely on the client side using JavaScript, and requires no external libraries or configurations to run. ASCIIator supports a variety of options, such as using user text, changing text spacing, adding background colors, and old-school black 'n' white mode.
+-----
+
+[www.asciiator.com](http://www.asciiator.com) is a completely client-side ASCII
+art generation website. Have fun!
